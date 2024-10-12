@@ -43,7 +43,7 @@ const SideMenu = () => {
     if (isOpen) {
       document.body.style.overflowY = "hidden"
     } else {
-      docuemnt.body.style.overflowY = "auto"
+      document.body.style.overflowY = "auto"
     }
   }, [isOpen])
 
